@@ -1,0 +1,8 @@
+.botonIngreso {
+    color: red
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+}
