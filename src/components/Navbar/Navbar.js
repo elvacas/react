@@ -1,13 +1,15 @@
 import './Navbar.css'
+import CartWidget from '../CartWidget/CartWidget'
+import Element from '../Element/Element'
 
 
 const Navbar = () => {
     return(
 <nav className= 'navegacion'>
-    <a href="/#" >Inicio</a>
-    <a href="/#" >Productos</a>
-    <a href="/#" >Sobre Nosotros</a>
-    <a href="/#" >Contacto</a>
+    <Element nombre='Vestidos' colorText='white'/>
+    <Element nombre='Buzos' colorText='white'/>
+    <Element nombre='Pantalones' colorText='white'/>
+    <CartWidget/>
     <button className='botonIngreso'>Ingreso</button>
 </nav>
     )
